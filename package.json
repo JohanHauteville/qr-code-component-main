@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "sass": "^1.57.1"
+  },
+  "name": "qr-code-component-main",
+  "description": "![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass --watch ./SASS/main.scss:./CSS/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohanHauteville/qr-code-component-main.git"
+  },
+  "author": "Johan Hauteville",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohanHauteville/qr-code-component-main/issues"
+  },
+  "homepage": "https://github.com/JohanHauteville/qr-code-component-main#readme"
+}
