@@ -1,0 +1,31 @@
+$color-txt-secondary:hsl(220, 15%, 55%);
+$color-white: hsl(0, 0%, 100%);
+$color-background: hsl(212, 45%, 89%);
+$color-text-primary: hsl(218, 44%, 22%);
+
+
+body {
+    background: $color-background;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.card{
+    background-color: $color-white;
+    border-radius: 15px;
+    height: 30rem;
+    width: 20rem;
+    font-family: Outfit;
+    text-align: center;
+    padding: 1rem;
+    &__qr{
+        height: 30%;
+        border-radius: 15px;
+        object-fit: contain;
+    }
+
+}
